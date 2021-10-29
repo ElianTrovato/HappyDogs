@@ -1,0 +1,532 @@
+.ubicacion {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ubicacion .margen {
+  margin-bottom: 30px;
+}
+
+.ubicacion .margen .formatoBoton {
+  color: white !important;
+}
+
+.ubicacion .margen .formatoBoton:hover {
+  font-weight: bold;
+}
+
+.ubicacion2 {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ubicacion2 .centrado {
+  text-align: center;
+}
+
+.ubicacion2 .margen {
+  margin-bottom: 30px;
+}
+
+.ubicacion2 .margen .formatoBoton {
+  color: white !important;
+}
+
+.ubicacion2 .margen .formatoBoton:hover {
+  font-weight: bold;
+}
+
+.bordenav {
+  border-bottom: 2px solid black;
+}
+
+.ubicacion3 {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ubicacion3 .botonRegistro {
+  text-decoration: none;
+  color: white;
+}
+
+.ubicacion3 .botonRegistro:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.ubicacion4 {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ubicacion4 .formatoBoton {
+  color: white !important;
+}
+
+.ubicacion4 .formatoBoton:hover {
+  font-weight: bold;
+}
+
+.bordenav2 {
+  border-bottom: 2px solid black;
+}
+
+.ubicacion5 {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ubicacion5 .marg {
+  margin-bottom: 20px;
+}
+
+#pagina {
+  background-color: #8b7474;
+}
+
+#pagina #menu {
+  border-bottom: 5px solid rgba(41, 38, 38, 0.616);
+  margin-bottom: 50px;
+}
+
+#pagina #mascotas #titulo2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+  -webkit-animation-name: agrandar;
+          animation-name: agrandar;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@-webkit-keyframes agrandar {
+  0% {
+    font-size: 20px;
+  }
+  50% {
+    font-size: 25px;
+    color: #aeaeb1;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+
+@keyframes agrandar {
+  0% {
+    font-size: 20px;
+  }
+  50% {
+    font-size: 25px;
+    color: #aeaeb1;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+
+#pagina #mascotas #carrousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 50px;
+  margin-top: 150px;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#pagina #mascotas #carrousel #perro {
+  border-radius: 30px;
+  background-color: rgba(139, 116, 116, 0.363);
+  border: 5px solid rgba(51, 47, 47, 0.24);
+}
+
+#pagina #mascotas #carrousel #perro #perrotext {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+}
+
+#pagina #mascotas #carrousel #perro #perroimg {
+  height: 300px;
+  width: 300px;
+  border-top: 2px solid black;
+  border-radius: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#pagina .btn-flotante {
+  background-color: #b89f9f;
+  padding: 18px 30px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  -webkit-transition: all 300ms ease 0ms;
+  transition: all 300ms ease 0ms;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  border-radius: 80px;
+}
+
+#pagina {
+  background-color: #8b7474;
+}
+
+#pagina #menu {
+  border-bottom: 5px solid rgba(41, 38, 38, 0.616);
+  margin-bottom: 50px;
+}
+
+#pagina #mascotas #titulo2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+  -webkit-animation-name: agrandar;
+          animation-name: agrandar;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@keyframes agrandar {
+  0% {
+    font-size: 20px;
+  }
+  50% {
+    font-size: 25px;
+    color: #aeaeb1;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+
+#pagina #mascotas #carrousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 50px;
+  margin-top: 150px;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#pagina #mascotas #carrousel #perro {
+  border-radius: 30px;
+  background-color: rgba(139, 116, 116, 0.363);
+  border: 5px solid rgba(51, 47, 47, 0.24);
+}
+
+#pagina #mascotas #carrousel #perro #perrotext {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+}
+
+#pagina #mascotas #carrousel #perro #perroimg {
+  height: 300px;
+  width: 300px;
+  border-top: 2px solid black;
+  border-radius: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#pagina .btn-flotante {
+  background-color: #b89f9f;
+  padding: 18px 30px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  -webkit-transition: all 300ms ease 0ms;
+  transition: all 300ms ease 0ms;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  border-radius: 80px;
+}
+
+#pagina {
+  background-color: #8b7474;
+}
+
+#pagina #menu {
+  border-bottom: 5px solid rgba(41, 38, 38, 0.616);
+  margin-bottom: 50px;
+}
+
+#pagina #mascotas #titulo2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+  -webkit-animation-name: agrandar;
+          animation-name: agrandar;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@keyframes agrandar {
+  0% {
+    font-size: 20px;
+  }
+  50% {
+    font-size: 25px;
+    color: #aeaeb1;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+
+#pagina #mascotas #carrousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 50px;
+  margin-top: 150px;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#pagina #mascotas #carrousel #perro {
+  border-radius: 30px;
+  background-color: rgba(139, 116, 116, 0.363);
+  border: 5px solid rgba(51, 47, 47, 0.24);
+}
+
+#pagina #mascotas #carrousel #perro #perrotext {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+}
+
+#pagina #mascotas #carrousel #perro #perroimg {
+  height: 300px;
+  width: 300px;
+  border-top: 2px solid black;
+  border-radius: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#pagina .btn-flotante {
+  background-color: #b89f9f;
+  padding: 18px 30px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  -webkit-transition: all 300ms ease 0ms;
+  transition: all 300ms ease 0ms;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  border-radius: 80px;
+}
+
+.contenedor {
+  background-color: white !important;
+  border-top: 2px solid gray;
+}
+
+.contenedor .videoBackground {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1000;
+  overflow: hidden;
+  border: 2px solid gray;
+}
+
+.contenedor .videoBackground .video {
+  background: #fff;
+  position: fixed;
+  opacity: 0.8;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+#entrada {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 250px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  z-index: 1000;
+}
+
+#entrada #titulo {
+  color: white;
+  font-weight: 900;
+  font-family: cursive;
+  text-decoration: underline;
+}
+
+#entrada #subtitulo {
+  color: white;
+  margin-bottom: 200px;
+  font-weight: 200;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  height: 200px;
+  width: 700px;
+  -webkit-animation-name: mover;
+          animation-name: mover;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  border-radius: 30px;
+}
+
+@-webkit-keyframes mover {
+  from {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.432);
+  }
+  to {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.295);
+  }
+}
+
+@keyframes mover {
+  from {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.432);
+  }
+  to {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.295);
+  }
+}
+
+.btn-flotante {
+  background-color: #b89f9f;
+  padding: 18px 30px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  -webkit-transition: all 300ms ease 0ms;
+  transition: all 300ms ease 0ms;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  border-radius: 80px;
+}
+
+#contacto {
+  margin-bottom: 100px;
+}
+
+#contacto #contactoText {
+  color: #fff;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */

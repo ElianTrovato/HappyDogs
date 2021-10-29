@@ -1,0 +1,20 @@
+.ubicacion2{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .centrado{
+        text-align: center;
+    }
+    .margen{
+        margin-bottom: 30px;
+        .formatoBoton{
+            color: white !important;
+        }
+        .formatoBoton:hover{
+            font-weight: bold;
+        }
+    }
+}
+
+

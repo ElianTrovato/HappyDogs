@@ -1,0 +1,15 @@
+.ubicacion{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .margen{
+        margin-bottom: 30px;
+        .formatoBoton{
+            color: white !important;
+        }
+        .formatoBoton:hover{
+            font-weight: bold;
+        }
+    }
+}

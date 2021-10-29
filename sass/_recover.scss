@@ -1,0 +1,13 @@
+.ubicacion4{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .formatoBoton{
+        color: white !important;
+    }
+    .formatoBoton:hover{
+        font-weight: bold;
+    }
+}
+
