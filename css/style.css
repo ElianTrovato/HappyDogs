@@ -413,6 +413,14 @@
   border-radius: 80px;
 }
 
+#header #iniciarSesion {
+  color: #6464ff;
+}
+
+#header #iniciarSesion:hover {
+  color: blue;
+}
+
 .contenedor {
   background-color: white !important;
   border-top: 2px solid gray;

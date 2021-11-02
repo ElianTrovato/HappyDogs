@@ -7,6 +7,15 @@
 @import "encontra";
 @import "adopta";
 
+#header{
+    #iniciarSesion{
+        color: rgb(100, 100, 255);
+    }
+    #iniciarSesion:hover{
+        color: blue;
+    }
+}
+
 .contenedor{
     background-color: white !important;
     border-top: 2px solid gray;
