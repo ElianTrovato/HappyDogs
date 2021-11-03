@@ -531,10 +531,52 @@
 
 #contacto {
   margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-#contacto #contactoText {
+#contacto #hijos #contactoText {
   color: #fff;
   font-size: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  #entrada #titulo {
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+  }
+  #entrada #subtitulo {
+    height: 300px;
+    width: 500px;
+  }
+  #contacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  #entrada #subtitulo {
+    height: 500px;
+    width: 300px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
